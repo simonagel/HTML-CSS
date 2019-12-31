@@ -1,0 +1,65 @@
+.conteiner{
+    margin:0 auto;
+    width: 100%;
+}
+
+
+.r_red{
+    width:100%;
+    position:relative;
+    display:inline-block;
+}
+
+.r_red div{
+    height: 50px;
+    float:left;
+    border:5px solid white;
+    box-sizing: border-box;
+}
+
+.c_green{
+    background-color:green;
+ }
+
+.c_red{
+    background-color: red;
+}
+
+.c_blue{
+    background-color:blue;
+ }
+
+.c_pink{
+    background-color:pink;
+}
+    
+.c_len1{
+    width: 50%;
+}
+
+.c_len2{
+  width:25%;
+}
+
+.c_len3{
+    width:33.33%;
+}
+
+.c_len4{
+    width: 16.66%;
+}
+
+.c_len5{
+    width:11.11%;
+}
+
+
+.c_len6{
+    width:75%;
+}
+
+.c_len7{
+    width: 10%;
+}
+
+    
