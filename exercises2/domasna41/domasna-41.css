@@ -1,0 +1,20 @@
+.container{
+	width:50%;
+	float:left;
+    height: 300px;
+    background-color: blueviolet;
+}
+
+.img1{
+    position:relative;
+}
+
+.nasa{
+    position: absolute;
+    max-width: 120px;
+    left:20px;
+   top:50px
+    float: left;
+    border:1px solid;
+
+}
