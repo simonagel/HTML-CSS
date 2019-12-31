@@ -1,0 +1,195 @@
+html, body, .cont-corap{
+    width: 100%;
+    margin:0 auto;
+    padding:0;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: centar;
+    background-color: #fff;
+}
+
+.red1 div, .red2 div, .red3 div{
+    width: 7.7%;
+    height: 20px;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.crven{
+    background-color: #C21316;
+}
+.zelen{
+    background-color:#2EAB7B;
+ }
+.plav{
+    background-color:#0C629C;
+}
+.crn{
+    background-color: #312A33;
+}
+.zolt{
+    background-color: #EBC367;
+
+}
+.oranz{
+    background-color: #FA6E28;
+}
+.pink{
+    background-color: #D93662;
+}
+
+.red1, .red2, .red3{
+    width: 100%;
+    display:flex;
+    flex-flow: row;
+    justify-content: center; 
+}
+
+.cergice, .cergice1{
+    width: 100%;
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.cergice1{
+        margin-top: -50px;
+}
+
+.logo-corap img{
+    width: 100px;
+    height: 100px;
+    display:block;
+    position: absolute;
+    top:30px;
+    left:50px;
+}
+
+.pozadina{
+    width: 70%;
+    background-image: url("https://dobarcorap.com/images/background.png");
+    background-size: 200%;
+    min-height: 450px;
+    margin:70px auto;
+    text-align: center;
+    padding:0 0 10px 0;
+}
+
+
+.kutija img{
+    display:block;
+    with:450px;
+    height:450px;
+    margin:50px auto;
+}
+
+.naracaj{
+    background-color: #FA6E28; 
+    width: 150px;
+    height: 70px;   
+    margin:0 auto;
+    margin-top:-20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.kopce{
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 10px auto;
+    display:inline-block;
+}
+
+.kopce span{
+    color:whitesmoke;
+}
+
+.cena{
+    font-weight: bold;
+    color:#312A33 !important;
+} 
+
+.shto{
+    text-align: center;
+    line-height: 200%;
+}
+
+.sliki{
+    display:flex;
+    flex-flow: row wrap;
+    max-width: 100%;
+    justify-content: center;
+    margin:0 0 40px 0;
+}
+
+.sliki img{
+    display: inline-block;
+    max-width: 30%;
+    height: 250px;
+    padding:0 20px;
+  
+}
+
+.prazen{
+    min-width: 30%;
+    height: 250px;
+    padding:0 20px;
+    box-sizing: border-box;
+}
+
+.posleden{
+    min-height: 200px;
+    background-color: #211e1e;
+    color: #c9c9c9;
+    padding-top: 30px;
+}
+
+.posleden-flex{
+    display:flex !important;
+    flex-flow:row;
+    align-content: center !important;
+}
+.linkovi, .logo1, .kontakt{
+    padding:0 130px 0 50px;
+}
+.l1{
+    display:block;
+    font-weight: bold;
+    text-decoration: none;
+    color: #c9c9c9;
+}
+
+.l1 img{
+    width: 20px;
+    height: 20px;
+}
+
+.logo1{
+    text-align: center;
+}
+.logo1 img{
+    width: 250px;
+    height: 150px;
+}
+
+.fa-instagram, .fa-facebook-square{
+   font-size:48px;
+   color:whitesmoke;
+   padding:15px;
+}
+
+.fa-instagram:hover, .fa-facebook-square:hover{
+    font-size:48px;
+    color:yellow;
+ }
+
+
+ .mejl, .kopce-sub{
+     height: 30px;
+     box-sizing: border-box;
+ }
