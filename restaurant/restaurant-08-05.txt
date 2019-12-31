@@ -1,0 +1,15 @@
+https://i1.wp.com/camille.la-studioweb.com/wp-content/uploads/2018/05/m27-logo.png?fit=186%2C57&zoom=2&ssl=1 logo 
+
+https://i1.wp.com/camille.la-studioweb.com/wp-content/uploads/2018/05/m27-s1.jpg?fit=1920%2C1008&zoom=2&ssl=1 main slider
+https://i0.wp.com/camille.la-studioweb.com/wp-content/uploads/2018/04/m27-bg1.png?fit=176%2C161&zoom=2&ssl=1 logo 2
+https://i1.wp.com/camille.la-studioweb.com/wp-content/uploads/2018/04/m27-bg2.png?fit=67%2C27&zoom=2&ssl=1 ukras
+https://i1.wp.com/camille.la-studioweb.com/wp-content/uploads/2018/04/m27-bg3.png?fit=235%2C148&zoom=2&ssl=1 potpis
+
+
+https://i0.wp.com/camille.la-studioweb.com/wp-content/uploads/2018/04/m27-pf1.jpg?fit=1920%2C718&zoom=2&ssl=1 
+https://i0.wp.com/camille.la-studioweb.com/wp-content/uploads/2018/04/m27-pf2.jpg?fit=960%2C714&zoom=2&ssl=1
+https://i2.wp.com/camille.la-studioweb.com/wp-content/uploads/2018/04/m27-pf3.jpg?fit=960%2C714&zoom=2&ssl=1
+
+
+ <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine:400,700" rel="stylesheet">

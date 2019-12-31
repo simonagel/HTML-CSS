@@ -1,0 +1,244 @@
+html, body{
+    margin:0 auto;
+    padding:0;
+
+}
+
+.div-menu{
+    width: 300px;
+    height: 100%;
+    background-color: #262626;        
+    position: fixed;
+    font-family: "Lato";
+}
+
+.div-menu img{
+    width: 70%;
+    height: 80px;
+    margin: 20px 50px;
+    
+
+}
+
+.lista{
+    width:70%;
+    list-style: none;
+    text-align: center;
+}
+
+.lista li{
+    display:block;
+    text-align: center;
+    padding:10px 15px;
+    color:whitesmoke;
+    text-align: center;
+    font-size:18px;
+    text-transform:uppercase;
+}
+
+li a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+.lista1{
+    display:none;
+}
+
+li:nth-child(3):hover .lista1{
+    display: block;
+}
+
+.frame-mapa{
+    display: block;
+    box-sizing: border-box;
+}
+.div-main{
+    margin:0 0 0 300px;
+    font-family: "Lato";
+    color:whitesmoke;
+}
+
+.info-img{
+    position: relative;
+    width: 100%;
+    height:500px;
+    background-image: url("https://i1.wp.com/camille.la-studioweb.com/wp-content/uploads/2018/05/m27-s1.jpg?fit=1920%2C1008&zoom=2&ssl=1");
+    background-size: cover;
+
+}
+
+.info-text{
+    width:50%;
+    height: 50%;
+    background-color: rgb(220,220,232, 0.3);
+    text-align: right;
+    position: absolute;
+    right:0px;
+    bottom: 0;
+    padding:40px 20px;
+}
+
+.info-text i{
+    color:peru;
+}
+
+.div-wr{
+    width: 100%;
+    
+    margin:0 auto;
+    text-align: center;
+    color:black;
+}
+
+.img-logo{
+    display:flex;
+    flex-flow:column;
+    align-items: center;
+    justify-content:center;
+    padding: 30px;
+    color:black;
+    background-color:#F5F5F5;
+    text-align: center;
+}
+
+h1,h3, span{
+    text-transform: capitalize;
+    margin:0 0 30px 0;
+   
+}
+
+
+.h-1{
+    font-family: "Tangerine";
+    color:peru;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.menu-m{
+    display:flex;
+    flex-flow: row;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:30px;
+}
+.menu-d{
+    position: relative;
+    width: 30%;
+    height: 300px;
+    border:1px solid lightgray;
+    margin:0 10px 0 10px;
+    padding-top:30px;
+    
+
+}
+
+.menu-h{
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    top:-30px;
+    left:100px;
+    background-color:white;
+    padding:0 10px;
+    
+}
+
+
+.d-1{
+    margin:0 auto;
+    width: 90%;
+    height: 40px;
+    display:flex;
+    flex-flow: row;
+    border-bottom:1px solid lightgray;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.d-s{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    padding-top:30px;
+}
+
+
+.img-golem{
+    width: 100%;
+   height: 500px;
+    box-sizing: border-box;
+    background-image: url("https://i0.wp.com/camille.la-studioweb.com/wp-content/uploads/2018/04/m27-pf1.jpg?fit=1920%2C718&zoom=2&ssl=1");
+    background-size: cover;
+}
+
+
+.img-mal img{
+    display:block;
+    width: 50%;
+    height: 400px;
+}
+
+.img-mal{
+    display:flex;
+}
+
+.fas{
+    color: peru;
+}
+
+.ff {
+    border:1px solid peru;
+    background-color: peru;
+    color:white;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding:2px;
+}
+
+.sivo{
+    color:lightgray;
+}
+
+form{
+    background-color:#F5F5F5;
+}
+
+.f-row{
+    width:60%;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    padding-bottom: 10px;
+}
+.f-col{
+    width: 49%;
+}
+.f-input{
+    width: 100%;
+    height: 45px;
+    border:1px solid lightgray;
+    text-transform:uppercase;
+    padding-left:10px;
+    box-sizing: border-box;
+}
+
+.f {
+    text-transform: lowercase;
+}
+
+textarea, button{
+    width: 100%;
+    display:block;
+   
+    
+}
+
+button{
+    height:70px;
+    background-color: peru;
+    color:whitesmoke;
+    text-transform:uppercase;
+    box-sizing:border-box;
+}
