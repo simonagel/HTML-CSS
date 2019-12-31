@@ -1,0 +1,431 @@
+html, body, .main-container, .logo-container, h1, h4 {
+    width: 100%;
+    margin:0 auto;
+    padding:0;
+    background-color:#32712a;
+    color:#636363;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+
+}
+
+
+.main-container{
+   width: 90%;
+}
+
+.logo-container span{
+   display: block;
+ 
+  
+}
+
+.logo-container img{
+   width: 60px;
+   height: 60px;
+   background-color: white;
+   border:20px solid white;
+   border-radius: 70px;
+   color:white;
+
+}
+
+.logo-container{
+   text-align: center;
+   padding:50px 10px 20px 10px;
+}
+
+.logo-container h1, .logo-container h4{
+   font-size:200%;
+   color:whitesmoke;
+   
+}
+
+.logo-container h4{
+   font-size:80%;
+   opacity:0.6;
+}
+
+.c-container{
+   
+   width: 100%;
+   height: 800px;
+   background-color:yellowgreen;
+   top:100px; 
+}
+
+.main-menu{
+
+    height: 50px;
+    background-color: #F7F7F7;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+    padding:20px;
+    
+}
+
+.main-container ul{
+   margin:0 auto;
+   padding:0;
+   list-style: none;
+}
+
+.main-container ul li{
+
+    display:inline-block;
+    vertical-align: middle;
+    padding:20px;
+    font-weight:bold;
+}
+
+.main-container ul li a{
+   text-decoration: none;
+   color:inherit;
+   padding: inherit;
+   font-weight: inherit;
+}
+
+.main-container ul li a:hover{
+   background-color:#4EAF42;
+   color:whitesmoke;
+   border-radius: 5px;
+}
+
+.c-container{
+   width: 100%;
+   background-color: white; 
+}
+
+section, .s-line{
+   margin:0 auto;
+   padding:0;
+   width: 90%;
+   box-sizing: border-box;
+}
+
+.c-container-text{
+   width: 60%;
+   font-size: 80%;
+}
+
+.c-container-text p{
+   font-size:16px;
+   font-weight: 300;
+   margin:0 0 40px 0;
+}
+
+h2{
+   font-size: 38px;
+}
+
+.c-container-text h2::after {
+   display: block;
+   content: '';
+   width: 20%;
+   height: 2px;
+   margin: 30px 0 30px 0;
+   border-radius: 2px;
+   background-image: linear-gradient(90deg, #8ae778, #3e9c75, #10682d);
+
+}
+
+strong{ 
+   font-size:18px;
+}
+
+.s-text {
+   padding-top:50px;
+   display:flex;
+   flex-flow: row;
+}
+
+
+.smoke{
+   width:320px;
+   height: 320px;
+   margin:0 auto;
+   background-color:white;
+   border-radius:300px;
+   border:1px solid #dddddd;
+   text-align: center;
+   display:flex;
+   align-items: center;
+}
+
+.smoke img{
+   width: 300px;
+   height: 300px;
+   border-radius: 200px;
+   margin:0 auto;
+}
+
+.s-line{
+   height: 0px;
+   background-color: #636363;
+   border-top:1px solid #dddddd;
+   width: 100%;
+   margin-top:70px;
+}
+
+.s-simboli , .s-mapa{
+   width: 100%;
+   margin:0 auto;
+   text-align: center;
+   padding:0;
+   padding-top:20px;
+   background-color: white;
+   
+}
+
+.s-simboli h2::after, .s-mapa h2::after{
+   margin: 30px auto;
+   display: block;
+   content: '';
+   width: 13%;
+   height: 2px;
+   border-radius: 2px;
+   background-image: linear-gradient(90deg, #8ae778, #3e9c75, #10682d);
+
+}
+
+.s-simboli h3{
+   margin-top: 5px;
+   margin-bottom: 10px;
+   font-size:24px;
+   font-weight: bold;
+}
+
+.div-simboli{
+   display:flex;
+   flex-flow: row;
+
+}
+
+.s-left, .s-right{
+   width: 50%;
+}
+
+.plastika, .staklo, .metali, .hartija, .kompozit, .otpad{
+
+   display:flex;
+   flex-flow: row;
+   border-left: 1px solid rgb(238, 238, 238);
+   margin-top:20px;
+}
+
+
+
+.lev{
+   width: 50%;
+   padding:20px;
+   display:flex;
+   flex-wrap: wrap;
+   flex-flow:column;
+   align-items: center;
+   vertical-align: baseline;
+}
+
+.lev-mal{
+   width: 100%;
+   display:flex;
+   flex-flow: row;
+   align-items: center;
+   justify-content: center;
+}
+
+.lev-mal span{
+
+   font-size: 16px;
+   font-weight: bolder;
+   vertical-align: middle;
+   padding:0 10px;
+}
+
+.simboli{
+   width: 70px;
+   height: 70px;
+   padding:10px;
+   border:2px solid #1a8f33;
+   border-radius: 10px;
+   background: #f7f7f7;
+}
+
+.frli, .mapa-div{
+   width: 80%;
+   margin-top: 15px;
+   font-size: 14px;
+   background-color: #f1f1f1;
+   padding: 6px;
+   border-radius: 8px;
+   margin: 0 auto;
+}
+
+.s-frli {
+   width: 30px;
+   height: 30px;
+   padding: 0;
+   border: 0;
+   vertical-align: middle;
+   background: transparent;
+}
+
+.desen{
+   width: 50%;
+   text-align: left;
+   font-size: 14px;
+   line-height: 1.5;
+   margin-right: 50px;
+  }
+
+.ul-otpad li{
+   display:list-item !important;
+   list-style: disc outside none;
+   text-align: left;
+   margin-left: 5px;
+   font-weight: 300 !important;
+   padding:0 !important;
+}
+
+.otpad .lev{
+
+   width: 30%;
+}
+
+.otpad .desen{
+
+   width: 70%;
+}
+
+.otpad a:hover{
+   background-color: transparent !important;
+   color:inherit !important;
+}
+
+.s-link{
+   text-decoration: none;
+   border-bottom: 1px dotted rgb(99,99,99);
+   color:inherit;
+}
+
+.kratka, .dolga{
+   width: 80%;
+   height: 1px;
+   background-color:#dddddd;
+   border:none;
+   margin:0 auto;
+   margin-top:50px;
+}
+
+.dolga{
+   width: 100%;
+
+}
+
+.nr-ul, .mapa-ul{
+   margin:0 auto;
+   position: relative;
+   top:20px;
+   width:100%;
+   display:flex;
+   flex-flow: row;
+   justify-content: center;
+}
+
+.mapa-ul{
+   top: 0px;
+
+}
+
+.nr-ul li, .mapa-ul li{
+   display:inline-block;
+   width:30%;
+   text-align: center;
+}
+
+.nr-img img{
+   width: 50px;
+   height: 50px;
+   padding:20px;
+   border-radius: 10px;
+   background:white;
+   border:1px solid red;
+ 
+}
+
+.nr-div{
+   width:100%;
+   font-weight:normal;
+   text-align: center;
+   display:flex;
+   flex-flow: column;
+   align-items: center;
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+
+}
+.nr-div h3{
+   margin:0 auto;
+}
+.nr-div span{
+   color:#d60000;
+   font-weight: bold;
+   display:block;
+   font-size:13px;
+   margin:5px 0;
+
+
+}
+
+.nr-div p{
+   margin:0 auto;
+   line-height: 20px;
+   font-size:14px;
+}
+
+.frame-mapa{
+   width: 100%;
+   height: 480px;
+   margin:0 auto;
+   padding: 0 50px 20px 50px;
+   box-sizing: border-box;
+   border:none;
+}
+
+.footer-div section {
+	width: 100%;
+   text-align: center;
+   color:white;
+   
+}
+
+.footer-div a{
+	border-bottom: 0 none;
+}
+
+.mojvozduh, .pakomak{
+    width: 100px;
+    background-color: #1565c0;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.pakomak{
+    background-color: white;
+}
+.bez{
+   width: 100%;
+   margin: 50px 0;
+   font-size: 15px;
+   text-align: center;
+   color:white;
+}    
+
+.bez a {
+   text-decoration: none;
+   color:white;
+}
+
