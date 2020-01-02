@@ -1,0 +1,424 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    width:100%;
+    height:100vh;
+}
+
+a, li{
+    text-transform:uppercase;
+    text-decoration: none;
+}
+
+
+ul{
+    list-style: none;
+}
+
+header{
+    width:100%;
+    height:70px;
+    background-color: whitesmoke;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    padding-left:20px;
+    z-index:100;
+}
+
+.img-h{
+    position: fixed;
+    width:50px;
+    height:50px;
+    
+}
+
+.img-h img{
+    width:100%;
+    height: 100%;
+
+}
+
+nav{
+    width:90%;
+    height:70px;
+    color:#111;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    z-index: 100;
+    position: relative;
+    
+}
+
+.div-nav{
+    height: 100%;
+    width:60%;
+    display:flex;
+    text-transform: capitalize;
+    justify-content:space-between;
+    align-items: center;
+    padding:20px;
+    font-size:14px;
+    font-weight: bold;
+    position: absolute;
+    right:50px;
+    
+}
+
+.main-menu{
+    width: 90%;
+    height: 100%;
+    display:flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.main-menu > li{
+    display:block;
+    padding-right:20px;
+    width: 100%;
+    height: 100%;
+}
+
+.main-menu > li > a {
+    text-decoration: none;
+    color:#111;
+}
+
+.main-menu > li:hover ul{
+    display:block;
+}
+
+.main-menu > li:hover{
+    color:lightgray;
+}
+
+.main-menu > li:hover .fa-caret-down {
+    display:none;
+}
+
+.main-menu > li:hover .fa-caret-up {
+    visibility: visible;
+}
+
+.sub-menu{
+    background-color:#365C9A;
+    display:none;
+    list-style: none;
+    color:#111;
+    font-weight: 300;
+    line-height: 30px;
+    position: absolute;
+    top:50px;
+    left:150px;
+    padding:20px;
+    z-index: 5;
+
+}
+
+.sub-menu1{
+    background-color:#365C9A;
+    display:none;
+    list-style: none;
+    color:#111;
+    font-weight: 300;
+    line-height: 30px;
+    position: absolute;
+    top:50px;
+    right:200px;
+    padding:20px;
+    z-index: 5;
+}
+
+.sub-sub-menu{
+    background-color:purple;
+    list-style: none;
+    color:#111;
+    font-weight: 300;
+    line-height: 30px;
+    width:100px;
+    position: absolute;
+    left:150px;
+    z-index:10;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.sub-menu > li:hover .sub-sub-menu{
+    display:block !important;
+    opacity: 1;
+}
+.ss > li{
+    position: relative;
+    padding-left:0px;
+    transition: padding 1s;
+}
+.ss > li:hover {
+    color:lightgray;
+    padding-left: 20px;
+}
+
+
+.ss > li:hover i.fas.fa-arrow-right{
+    display:inline-block;
+}
+
+.fas, .fal {
+    color:#111;
+}
+
+.fa-caret-up{
+    visibility: hidden;;
+}
+
+i.fas.fa-arrow-right{
+   color:lightgray;
+   display:none;
+   font-size: 80%;
+}
+
+.download{
+    display:block;
+    height:30px;
+    width: 100px;
+    color:whitesmoke;
+    font-size:14px;
+    padding-top:5px;
+    font-weight: 300;
+    background-color: #DF1F56;
+    border-radius:25px;
+    text-align: center;
+    position:relative;
+}
+
+.download:after{
+    content:' ';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    border:1px solid  #DF1F56;
+    border-radius:25px;
+    opacity:1;
+   
+}
+
+.download:hover:after{
+    opacity: .2;
+    animation: pound 1s infinite;
+}
+
+@keyframes pound {
+	from { transform: none; }
+	50% { transform: scale(1.4, 1.1); }
+	to { transform: none; }
+}
+
+.main-menu > li:after{
+   display: block;
+   content: '';
+   width: 0px;
+   height: 2px;
+   border-radius: 2px;
+    background-color: #DF1F56; 
+   transition: width .5s ease-in-out;
+  
+}   
+
+.main-menu > li:hover:after{
+    width: 70px;
+}
+
+.hamburger{
+    height: 100%;
+    display:none;
+}
+
+.hamburger > div{
+    width: 30px;
+    height: 3px;
+    background-color:#DF1F56;
+    margin: 6px 0;
+    display:block;
+}
+
+section{
+    width: 100%;
+    
+}
+
+.img-coffee{
+    width: 100%;
+    height: 700px;
+    background-image: url('architecture-bar-coffee-683039.jpg');
+    position: relative;
+    top:70px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: .9;
+    text-align: center;
+    
+}
+
+.img-coffee-text{
+    width: 100%;
+    padding-top:50px;
+    line-height: 40px;
+}
+
+.img-coffee-text h1, .img-coffee-text h4, .img-coffee-text p {
+    color:white;
+    
+}
+
+.read-more{
+    margin:50px auto;
+}
+
+.read-more a:hover{
+    background-color: red;
+}
+
+.img-coffee-info{
+   
+    width:80%;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-i{
+    padding:20px;
+    width: 33%;
+    height: 360px;
+    color:#111;
+    background-color: whitesmoke;
+    display: flex;
+    flex-flow:column;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.div-siv{
+    background-color: grey;
+}
+
+.div-i i{
+    display:block;
+    font-size:50px;
+    color:#DF1F56;
+}
+
+.div-bel{
+    width: 80%;
+    height: 800px;
+    margin:0 auto;
+    background-color:whitesmoke;
+}
+
+.div-bel h1{
+    padding-top:150px;
+    text-align: center;
+    color:#111;
+}
+
+.div-bel-grid{
+    width: 100%;
+    height: 100%;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 400px 400px;
+    grid:20px;
+   /* background-color: aqua;*/
+}
+.grid-item{
+   /* border:1px solid black;*/
+   margin:20px;
+}
+
+.grid-item img{
+    width: 100%;
+    height: 100%
+}
+
+.item-1{
+    display:flex;
+    flex-flow:column;
+    padding-left:20px;
+    text-align: left;
+}
+@media only screen and (max-width: 768px){
+    nav{
+        display:none;
+    }
+
+    
+    
+    .hamburger{
+        display:block;
+        padding:10px;
+    }
+
+    .hamburger:hover{
+        cursor: pointer;
+    }
+    
+    
+    nav:hover .div-nav{
+        width:50%;
+        height:150px;
+        background-color:#4E84C2;
+        display:block;
+        position: absolute;
+        top:70px;
+        left:200px;
+        
+    }
+
+    nav:hover .main-menu{
+        flex-flow:column;
+    }
+
+    nav:hover .main-menu li{
+        padding-top:20px;
+
+    }
+   
+    .img-coffee-info, .div-i{
+        width:100%;
+        flex-flow:column;
+    }
+    .div-bel{
+        width: 100%;
+        margin-top:800px;
+    }
+    .div-bel-grid{
+        width: 100%;
+        height: 100%;
+        display:grid;
+        grid-template-columns:1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }   
+    
+    .grid-item{
+        width: 100%;
+        height: 100%;
+        margin:0;
+    }
+}    
+
