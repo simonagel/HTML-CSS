@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding:0px;
+   
+}
+
+
+.container ul{
+    list-style: none;
+}
+
+.container ul li{
+    background-color: blue;
+    width: 150px;
+    border:1px solid whitesmoke;
+    height: 50px;
+    color:whitesmoke;
+    line-height: 50px;
+    font-size:18px;
+    font-weight: bold;
+    text-align: center;
+    float:left;
+}
+
+.container ul li:hover{
+    background-color: darkgreen;
+}
+
+.container ul ul{
+    display:none;
+}
+
+.container ul li:hover > ul{
+    display: block;
+}
+
+.container ul ul ul{
+    margin-left:150px;
+    margin-top:-50px; 
+}
