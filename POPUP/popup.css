@@ -1,0 +1,399 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+
+header{
+    width: 100%;
+    height:50px;
+    position: fixed;
+    background-color: white;
+    text-transform: uppercase;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:20px;
+    font-size:300;
+}
+
+header span{
+    display:block;
+}
+
+.hamburger{
+    height: 100%;
+    padding-top:10px;
+}
+
+.hamburger > div{
+    width: 30px;
+    height: 3px;
+    background-color:orangered;
+    margin: 6px 0;
+    display:block;
+}
+
+ .lev, .desen, .contact, .reserv{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.lev{
+    width:10%;
+    height: 100%;
+}
+
+.desen{
+    width:25%;
+    height: 100%;
+    justify-content: space-between;
+   
+}
+.reserv{
+    width: 200px;
+    height: 100%;
+    text-transform: capitalize;
+    color:white;
+    font-weight: bold;
+    background-color:orangered;
+}
+
+nav{
+    width: 20%;
+    height: 100%;
+    background-color:#111;
+    color:white;
+    position: fixed;
+    left:0;
+    top:50px;
+    transform:translateX(-20%);
+    transition: transform 20% ease-in-out;
+    z-index: 100;
+    display:none;
+}
+
+nav > ul{
+    list-style: none;
+    text-align: center;
+    margin-top:35px;
+}
+
+nav > ul > li{
+    text-transform: uppercase;
+    color:white;
+    font-size:18px;
+    font-weight: 500;
+    padding-top:20px;
+
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color:white;
+}
+
+nav > div {
+    width:90%;
+    height:150px;
+    margin:100px auto;
+    
+}
+
+nav > div > img{
+    width: 100%;
+    height:100%;
+}
+
+.hamburger:hover{
+    cursor: pointer;
+}
+
+.lev:hover nav{
+    display:block;
+}
+
+.stamp-h{
+    width:100px;
+    height: 100px;
+    display:none;
+    background-color: white;
+}
+.stamp-h > img{
+    width: 100%;
+    height: 100%;
+    
+}
+.slika{
+    width: 100%;
+    height:500px;
+    background-image: url('https://images.pexels.com/photos/2076625/pexels-photo-2076625.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top:200px;
+}
+
+.stamp{
+    position: absolute;
+    width:200px;
+    height: 200px;
+    top:50px;
+    left:150px;
+}
+.stamp > img{
+    width: 100%;
+    height: 100%;
+}
+
+.weather{
+    height: 100px;
+    width: 100px;
+    border:1px solid orangered;
+    background-color: rgb(255, 69, 0, .2);
+    border-radius: 100px;
+    position: absolute;
+    right:50px;
+    top:100px;
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    animation: pound 1s infinite;
+}
+
+@keyframes pound {
+	from { transform: none; }
+	50% { transform: scale(1.4); }
+	to { transform: none; }
+}
+
+.weather > span, .weather > i{
+    color:white;
+    font-size:12px;
+    display:block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.weather > i{
+    font-size:24px;
+}
+.tekst{
+    
+    width:80%;
+    height: 100px;
+    color:white;
+    font-size:20px !important;
+    font-weight: 500;
+    text-align: center;
+    margin:0 auto;
+    text-transform: capitalize;
+    
+}
+
+.tekst h2{
+    font-size:40px;
+    opacity: .8;
+}
+
+.btn{
+    width:50%;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+.box{
+    margin-top:50px;
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px outset orangered;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.box > a{
+    text-decoration: none;
+    color:white;
+    font-size:18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.box > i{
+    color:orangered;
+
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+}
+  
+.content > img{
+    width: 100%;
+    height: 100%;
+}
+  
+.div-why{
+    padding-top:20px;
+    display:flex;
+    flex-flow:column;
+    width:100%;
+    height:50px;
+    align-items:center;
+    justify-content: center;
+}
+
+.div-why > i, .div-why > span{
+    display:block;
+}
+
+.div-why > span{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.div-lorem{
+    margin:50px 0;
+    width:100%;
+    height:100px;
+    display:flex;
+    flex-flow: row;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.lorem1{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display:block;
+}
+
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: #EBEBEB;
+    position: fixed;
+    bottom:0px;
+   
+}
+
+footer > ul{
+    list-style: none;
+    text-align: center;
+}
+
+footer > ul > li{
+    display:inline-block;
+    padding:10px 20px;
+}
+
+footer > ul > li > a{
+    text-decoration: none;  
+    font-size: 16px;
+    color:#111;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+
+@media only screen and (max-width: 768px){
+
+.contact, .reserv, .weather{
+    display:none;
+}
+.lev{
+    margin-left:50px;
+}
+.lev > span{
+    padding: 0 10px;
+}
+.stamp{
+   display:none;
+}
+
+.stamp-h{
+    display:block;
+    background-color:white;
+    margin-top:30px;
+}
+.tekst{
+    margin-top:-80px;
+    font-size:12px !important;
+}
+
+.tekst > h2{
+    font-size:26px;
+    opacity: 1;
+}
+
+.btn{
+   width:100%;
+   flex-flow:column;
+   margin:0 auto;
+   padding-left:50px;
+}
+
+.box{
+    margin-top:50px;
+    width: 80%;
+}
+
+.popup {
+    
+    width: 80%;
+}
+
+nav{
+    width: 50%;
+}
+
+}
